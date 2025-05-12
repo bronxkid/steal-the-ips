@@ -16,4 +16,6 @@ qNVAKkuwxNpqruLjSRHg = CheckHWID(HWID)
 
 if qNVAKkuwxNpqruLjSRHg == true then
  loadstring(game:HttpGet("https://raw.githubusercontent.com/bronxkid/southbronx/refs/heads/main/bronxscript.lua"))()
+if qNVAKkuwxNpqruLjSRHg == false then
+  print("HWID Not Regsitered")
 end
